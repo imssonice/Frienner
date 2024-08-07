@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Frienner</string>
+    <string name="logo">TEAMMATE</string>
+    <string name="signIn_id">아이디 찾기</string>
+    <string name="signIn_id_et">Email</string>
+    <string name="signIn_pw">Password</string>
+    <string name="signIn_pw_et">비밀번호를 입력해주세요.</string>
+    <string name="signIn_login">로그인</string>
+    <string name="signIn_signup">회원가입</string>
+    <string name="toast_msg_noinput">입력되지 않은 정보가 있습니다.</string>
+    <string name="toast_msg_idpqErr">ID/PW를 확인해주세요.</string>
+    <string name="signup_name">Username</string>
+    <string name="signup_name_et">이름을 입력해주세요.</string>
+    <string name="cancle">CANCLE</string>
+</resources>
