@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Frienner</string>
-    <string name="logo">TEAMMATE</string>
-    <string name="signIn_id">아이디 찾기</string>
+    <string name="google_signin_button">Google로 가입하기</string>
+    <string name="kakao_signin_button">Kakao로 가입하기</string>
+    <string name="naver_signin_button">Naver로 가입하기</string>
+    <string name="signIn_id">로그인</string>
+    <string name="signIn_Text">일정에 따라 생성되는 맞춤형 체크리스트, \n\n나의 취향에 맞는 장소 추천 서비스를 이용해보세요!</string>
+    <string name="signIn_Text2">로그인 또는 회원가입 시 개인정보 처리방침에 동의하게 됩니다.</string>
     <string name="signIn_id_et">Email</string>
     <string name="signIn_pw">Password</string>
     <string name="signIn_pw_et">비밀번호를 입력해주세요.</string>

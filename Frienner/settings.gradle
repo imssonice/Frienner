@@ -10,6 +10,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
+        //maven { url = java.net.URI("https://devrepo.kakao.com/nexus/content/groups/public/") } //일케 하면 오류남
+        maven { url "https://devrepo.kakao.com/nexus/content/groups/public/" } // 수정된 부분
+        maven { url 'https://devrepo.kakao.com/nexus/repository/kakaomap-releases/' }
+
     }
 }
 rootProject.name = "Frienner"
