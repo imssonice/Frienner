@@ -17,9 +17,6 @@
         android:theme="@style/Theme.Frienner"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/edittext_background" />
 
         <activity
             android:name=".Login.SignInActivity"
