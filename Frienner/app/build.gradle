@@ -1,8 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-kapt'
-    id 'dagger.hilt.android.plugin'
 }
 
 android {
@@ -59,30 +57,9 @@ dependencies {
     implementation 'com.kakao.maps.open:android:2.11.9' //카카오지도 SDK 에 대한 의존성
     implementation "com.kakao.sdk:v2-all:2.20.3" // 전체 모듈 설치, 2.11.0 버전부터 지원
     implementation "com.kakao.sdk:v2-user:2.20.3" // 카카오 로그인 API 모듈
-    implementation 'androidx.fragment:fragment-ktx:1.5.7'
-    implementation("com.github.prolificinteractive:material-calendarview:2.0.1")
-
-
-
-    // Hilt for dependency injection
-    implementation "com.google.dagger:hilt-android:2.44"
-    kapt "com.google.dagger:hilt-android-compiler:2.44"
-
-    // Fragment
-    implementation "androidx.fragment:fragment-ktx:1.5.7"
-
-    // ViewModel
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.0"
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.0"
-
-    // ViewBinding
-    implementation "androidx.databinding:viewbinding:7.0.4"
-
-    // Kotlin Coroutines (for lifecycleScope)
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
 
     implementation 'androidx.core:core-ktx:1.8.0'
+
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
